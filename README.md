@@ -13,7 +13,7 @@ A simple, responsive calculator built from scratch using **HTML, CSS, and JavaSc
 
 ## Preview
 
-
+<img width="1275" height="977" alt="Calculator screenshot" src="https://github.com/user-attachments/assets/90bc5748-cf6c-41e9-a6ef-384328266bb5" />
 
 ## Built With
 
@@ -23,32 +23,31 @@ A simple, responsive calculator built from scratch using **HTML, CSS, and JavaSc
 
 ## Project Structure
 
-```
 ├── index.html      # Markup for the calculator
 ├── style.css       # Styling and layout
 ├── script.js       # Calculator logic and event handling
 └── README.md
-```
 
 ## Getting Started
 
 No build tools or dependencies needed — it's plain HTML/CSS/JS.
 
 1. Clone the repo:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/shoum217-cpu/Personal-Calculator.git
-   ```
-2. Open `index.html` in your browser (or use a tool like VS Code's Live Server extension).
+   \`\`\`
+2. Open \`index.html\` in your browser (or use a tool like VS Code's Live Server extension).
 3. Start calculating!
 
 ## How It Works
 
-Each button click appends its value to the display using JavaScript's DOM manipulation. Pressing `=` evaluates the current expression, and `C` clears the display. Event listeners are attached dynamically to number/operator buttons, keeping the logic separate from the markup.
+Each button click appends its value to the display using JavaScript's DOM manipulation. Pressing \`=\` evaluates the current expression, and \`C\` clears the display. Event listeners are attached dynamically to number/operator buttons, keeping the logic separate from the markup.
 
 ## What I Learned
 
 This project helped me practice:
-- Attaching event listeners dynamically with `querySelectorAll` and `forEach`
+
+- Attaching event listeners dynamically with \`querySelectorAll\` and \`forEach\`
 - The difference between calling a function immediately vs. passing it as a callback
 - Scoping DOM selectors carefully to avoid unintended overlaps
 - Structuring CSS with Flexbox and Grid for a centered, responsive layout
@@ -56,3 +55,4 @@ This project helped me practice:
 ## License
 
 This project is open source and available for learning purposes.
+
