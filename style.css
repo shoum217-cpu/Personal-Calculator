@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url(https://img.magnific.com/premium-photo/clear-blue-sky-sunset-with-horizon-calm-ocean-sea-background-picturesque_31965-165701.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: hsl(0, 100%, 60%);
+    padding: 10px 30px;
+    border-radius: 7px;
+    position: fixed;
+    width: 95vw;
+    top: 10px;              /* small gap from the very edge */
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);   /* centers it horizontally regardless of its width */
+}
+
+#container{
+    background-color: rgb(20, 19, 19);
+    max-width: 400px;
+    height: 68vh;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgb(160, 109, 109);   
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(44, 40, 40);
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 25px;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(85, 73, 73);
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: rgb(102, 97, 97);
+}
+
+.operator-button{
+    background-color: orange;
+}
+
+.operator-button:hover{
+    background-color: rgb(198, 211, 12);
+}
