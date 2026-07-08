@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@ body{
     box-sizing: border-box;
 }
 
-.heading{
+.heading {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
@@ -22,20 +22,21 @@ body{
     border-radius: 7px;
     position: fixed;
     width: 95vw;
-    top: 10px;             
+    top: 10px;
     left: 50%;
     text-align: center;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
+}
 
-#container{
+#container {
     background-color: rgb(20, 19, 19);
     max-width: 400px;
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 1px 1px 20px rgb(160, 109, 109);   
+    box-shadow: 1px 1px 20px rgb(160, 109, 109);
 }
 
-#display{
+#display {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -45,14 +46,14 @@ body{
     color: white;
 }
 
-#keys{
+#keys {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 25px;
 }
 
-button{
+button {
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -64,29 +65,29 @@ button{
     cursor: pointer;
 }
 
-#zero{
+#zero {
     grid-column: span 2;
     width: auto;
 }
 
-#clear{
+#clear {
     grid-column: span 2;
     width: auto;
 }
 
-#calculate{
+#calculate {
     grid-column: span 2;
     width: auto;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(102, 97, 97);
 }
 
-.operator-button{
+.operator-button {
     background-color: orange;
 }
 
-.operator-button:hover{
+.operator-button:hover {
     background-color: rgb(198, 211, 12);
 }
