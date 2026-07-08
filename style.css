@@ -22,11 +22,10 @@ body{
     border-radius: 7px;
     position: fixed;
     width: 95vw;
-    top: 10px;              /* small gap from the very edge */
+    top: 10px;             
     left: 50%;
     text-align: center;
-    transform: translateX(-50%);   /* centers it horizontally regardless of its width */
-}
+    transform: translateX(-50%); 
 
 #container{
     background-color: rgb(20, 19, 19);
