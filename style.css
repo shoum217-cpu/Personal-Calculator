@@ -31,7 +31,6 @@ body{
 #container{
     background-color: rgb(20, 19, 19);
     max-width: 400px;
-    height: 68vh;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 1px 1px 20px rgb(160, 109, 109);   
@@ -66,6 +65,20 @@ button{
     cursor: pointer;
 }
 
+#zero{
+    grid-column: span 2;
+    width: auto;
+}
+
+#clear{
+    grid-column: span 2;
+    width: auto;
+}
+
+#calculate{
+    grid-column: span 2;
+    width: auto;
+}
 
 button:hover{
     background-color: rgb(102, 97, 97);
