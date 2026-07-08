@@ -13,7 +13,7 @@ A simple, responsive calculator built from scratch using **HTML, CSS, and JavaSc
 
 ## Preview
 
-<img width="1275" height="977" alt="Calculator screenshot" src="https://github.com/user-attachments/assets/90bc5748-cf6c-41e9-a6ef-384328266bb5" />
+<img width="1275" height="977" alt="Calculator screenshot" src="Screenshot.png" />
 
 ## Built With
 
